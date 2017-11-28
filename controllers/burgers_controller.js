@@ -1,6 +1,6 @@
 var express = require("express");
 var burgerJS = require("../models/burger.js");
-
+var connection = require("../config/connection.js");
 var router = express.Router();
 
 router.get("/", function(req, res) {

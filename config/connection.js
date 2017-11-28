@@ -17,5 +17,12 @@ connection.connect(function(err) {
   console.log("connected as id " + connection.threadId);
 });
 
+
+app.listen(PORT, function() {
+  console.log("App listening on PORT " + PORT);
+  console.log("localhost:" + PORT);
+});
+
+
 // Export connection for our ORM to use.
 module.exports = connection;
