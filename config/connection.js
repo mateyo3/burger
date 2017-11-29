@@ -18,10 +18,6 @@ connection.connect(function(err) {
 });
 
 
-app.listen(PORT, function() {
-  console.log("App listening on PORT " + PORT);
-  console.log("localhost:" + PORT);
-});
 
 
 // Export connection for our ORM to use.
