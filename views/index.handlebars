@@ -8,9 +8,10 @@
     <ul>
       {{#each burgers}}
         {{#unless devour}}
-          <li>{{burger_name}}<button class="change-devour" data-id="{{id}}" data-newsleep="{{devour}}">
-    {{#if devour=false}}Devour?{{/if}}
-  </button></li>
+          <li>
+            {{burger_name}}
+              <button id="devoured" type="submit" data-id="{{id}}" data-name="{{burger_name}}">{{#if}}Devour?{{/if}}</button>
+          </li>
         {{/unless}}
       {{/each}}
     </ul>
