@@ -5,6 +5,22 @@ This full-stack site will take in user's burger names and add them to a MySQL da
 ## Deployed Heroku link
 https://tranquil-bastion-38527.herokuapp.com
 
+## Built With
+Javascript, Node.js, Express, MySQL, Handlebars, HTML, CSS
+
+## Getting Started
+Before running `server.js` you must install the npm dependencies
+`npm install`
+
+## Author
+Mateo Reyes
+
+## License
+&copy; 2017 Mateo Reyes
+
+## Acknowledgements
+Big thanks to Omar, Paige, and Keith
+
 ## Successes
 1. MySQL database created. Schema and Seed files are available
 
@@ -22,11 +38,5 @@ at prog (C:\Users\mateo\Desktop\class\Homework\burger\node_modules\handlebars\di
 at execIteration (C:\Users\mateo\Desktop\class\Homework\burger\node_modules\handlebars\dist\cjs\handlebars\helpers\each.js:51:19)
 at Object.<anonymous> (C:\Users\mateo\Desktop\class\Homework\burger\node_modules\handlebars\dist\cjs\handlebars\helpers\each.js:61:13)
 at Object.eval (eval at createFunctionContext (C:\Users\mateo\Desktop\class\Homework\burger\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:254:23), <anonymous>:6:31)
-    ```
 
-## Built With
-Javascript, Node.js, Express, MySQL, Handlebars, HTML, CSS
-
-## Getting Started
-Before running `server.js` you must install the npm dependencies
-`npm install`
+```
